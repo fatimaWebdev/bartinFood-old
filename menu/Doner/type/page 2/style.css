@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+	
+}
+
+.header 
+{
+	min-height: 100vh;
+  	background-position: center;
+ 	 background-size: cover;
+	background-image: url("img/WhatToEatAndDrinkInTurkey__HERO_shutterstock_658561435.jpg");
+	font-size: 100%;
+}
+ h1
+{
+
+	font-family: 'Karla', sans-serif;
+	padding: 120px 10px 0px 0px;
+	color: #FFFFFF;
+	font-size: 150px; 
+	text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+	text-align: center;
+}
+h3 
+{
+	
+	text-align: center;
+	padding: 10px;
+	color:#ffffff;
+	text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+@media screen and (max-width :460px){
+	 h1
+	{
+		font-size: 100px;
+	}
+}
+/* surch icon */ 
+.topnav
+{
+    align-content: center;
+    padding: 10px;
+    left: 50px;
+
+}
+.topnav .box .container-1 input
+{
+  padding: 10px 15px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+}
+.container-1 input{
+  width:100%;
+  height: 60px;
+  background: none ;
+  border-radius: 50px;
+  margin : 5px;
+  position: statics;
+  cursor: pointer;
+  font-size: 17px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.ara
+{
+    background-color: #8C0303;
+    border: none;
+    color: white;
+    margin :5px 5px;
+    padding: 7px 7px;
+    text-align: center;
+    width: 100%;
+   text-decoration: none;
+    display: inline-block;
+  border-radius: 50px;
+    font-size: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+.ara:hover
+{
+    background-color: #F27405;
+}
+
+/*--- for owl responsive ---*/
+.body{
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.wrapper{
+  width: 100%;
+}
+.carousel{
+  max-width: 1500px;
+  margin: auto;
+  padding: 0px 30px;
+}
+.carousel .card{
+  color: #fff;
+  text-align: center;
+  margin: 20px 0px;
+  line-height: 250px;
+  font-size: 60px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+	text-shadow: 5px 5px 10px rgba(0,0,1,0.5);
+}
+.card card-5
+{
+	font-size: 100px;
+}
+.carousel .card-1{
+  background-image: url("img/doner7.jpg");
+	background-position: center;
+	background-size: 450px ;
+	 background-repeat: no-repeat;
+}
+.carousel .card-2{
+  background-image: url("img/burger.jpg");
+		background-position: center;
+	background-size: 415px ;
+	 background-repeat: no-repeat;
+}
+.carousel .card-3{
+  background-image: url("img/brekfast.jpg");
+			background-position: center;
+	background-size: 445px ;
+	 background-repeat: no-repeat;
+}
+.carousel .card-4{
+ background-image: url("img/pizza.jpg");
+		background-position: center;
+	background-size: 445px ;
+	 background-repeat: no-repeat;
+}
+.carousel .card-5{
+ background-image: url("img/ÇiğKöfte.jpg");
+	background-position: center;
+	background-size: 445px ;
+	 background-repeat: no-repeat
+}
+.carousel .card-7{
+ background-image: url("img/lokom.jpg");
+	background-position: center;
+	background-size: 445px ;
+	 background-repeat: no-repeat
+}
+.carousel .card-8{
+  background-image: url("img/Balık.jpg");
+	background-position: center;
+	background-size: 445px ;
+	 background-repeat: no-repeat
+}.carousel .card-9{
+  background-image: url("img/pide lahmacun.jpg");
+	background-position: center;
+	background-size: 445px ;
+	 background-repeat: no-repeat
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 0px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.10s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background:  linear-gradient(to right, #558C03, #E5F2C2)!important;
+}
+/*-- card ---*/
+/* Create three equal columns that floats next to each other */
+.f
+{
+	padding: 0px 5px;
+	margin: 10px;
+	justify-content: center;
+}
+.column {
+  float: left;
+  width: 32.33%;
+  padding: 10px; 
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 3px; 
+	
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+	
+	font-size: 20px;
+  padding: 10px 16px ;
+}
+.heading {
+  font-size: 25px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: #F29F05;
+	display: inherit;
+}
+.btn {
+  background-color: #A60303;
+  border: none;
+  color: #FFFFFF;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 12px;
+  cursor: pointer;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (min-width:600px) {
+  .column {
+ 
+  }
+}
+
+
+/* header */
+@media screen and (max-width: 300px){
+	.container-1 .icon
+	{
+		display:inline-block;
+	}
+
+}
+
+@media screen and (min-width:305px){
+	.Bigcard
+	{
+	 	display: block;
+	}
+}
+/*-- pagination -*/
+.page
+{
+	border: none;
+  padding: 35px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+	float:left;
+	
+}
+.pagination
+{
+	margin: auto;
+	display:block;
+	width: 100%;
+}
+a
+{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+	
+}
+
+button:hover
+{
+  opacity: 0.1;
+}
+
+.pagination a 
+{
+	margin: 0px;
+  padding: 5px 7px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+ border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+.pagination a:hover
+{
+ background: #A60303; 
+	color: #F29F05;
+}
+
+footer p{
+	font-family: calibri;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	font-weight:bold;
+	color:#FFA343;
+	line-height:50px;
+}
+footer p:nth-child(2){
+	font-size: 16px;
+	color:#7e7d7d;
+	width:300px;
+	text-align: center;
+}
+footer{
+	height:200px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	 padding: 20px;
+  text-align: center;
+	background: #A60303 ;
+	float:left;
+}
+
+.copyright{
+	color:#7A736D;
+	font-size: 12px;
+	position: absolute;
+	left:50%;
+	bottom:10px;
+	transform: translateX(-50%);
+}
